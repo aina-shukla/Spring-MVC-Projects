@@ -9,6 +9,7 @@
 </head>
 <body style="background-color: powderblue; font-family: verdana">
 	Login successful..
-	<br> Welcome ${uname}
+	<br> Welcome ${uname} <br>
+	Now you can <a href="/list-todos"> Manage your To-Dos </a>
 </body>
 </html>

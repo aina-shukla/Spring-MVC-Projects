@@ -7,9 +7,12 @@
 <title>To-Dos List</title>
 </head>
 <body style="background-color: powderblue; font-family: verdana">
-Hi ${uname} <br>
-	Your To-Dos are ${todos}
-	<br>
-<a class = "button" href="/add-todo">Click to Add ToDo</a>
+
+<h2>Add a To-Do</h2>
+
+<form method="post">
+		Description: <input type="text" name="description" placeholder="Add description" />
+		<br> <input type="submit" value="Submit" />
+	</form>
 </body>
 </html>
